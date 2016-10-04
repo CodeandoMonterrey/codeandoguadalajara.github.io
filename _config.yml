@@ -1,9 +1,9 @@
 port:  4000
 markdown: kramdown
-name: Chi Hack Night
-url: http://chihacknight.org
-title: Chi Hack Night
-description: "Chicago's weekly event to build, share, and learn about civic tech."
+name: Codeando Guadalajara
+url: http://codeandoguadalajara.org
+title: Codeando Guadalajara
+description: "Comunidad de Hacking Cívico de Guadalajara"
 encoding: utf-8
 timezone: America/Chicago
 gems:

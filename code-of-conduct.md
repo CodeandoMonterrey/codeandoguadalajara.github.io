@@ -1,43 +1,45 @@
 ---
 layout: narrow
-title: Code of Conduct
-description: The Chi Hack Night community Code of Conduct.
+title: Conduct Code
+description: Conduct Code of the community
 ---
-        
-## Code of Conduct
 
-The Chi Hack Night community expects that their events:
 
-1. Are a **safe** environment, where people are free to fully express their identities.
-1. **Respect** the value of others and their ideas, skills and contributions. 
-1. Assume everyone has different backgrounds where members **seek first to understand**, then to be understood. 
-1. Recognize that **everyone has something to contribute** regardless of their technical abilities. 
-1. **Default to open**: the data, the code, and the access. Members strive to build tools that are free for public use and incorporate open source software and open data. 
-1. Are **a place for collaboration**, where members – experienced and new – work together to discuss issues and develop solutions, apps, and resources. 
-1. Work to **engage all Chicagoans** and communities in planning, designing, and implementing open tech, especially those who are traditionally excluded from the civic process.
-1. Ensure that the relationships and conversations among members of the Chi Hack Night, governments, and communities remain respectful, participatory, and **productive**.
-1. Provide an environment where people are **free from discrimination or harassment** (if you are harassed or witness harassment refer to the harassment policy below).
-1. **Are fun**.
+## Código de conducta
 
-### Anti-Harassment Policy
+Nosotros, la comunidad de Codeando México, nos comprometemos a mantener
+un entorno sin abusos para todo el mundo, sin importar sexo, identidad u orientación
+sexuales, discapacidad, aspecto físico, edad, raza, nacionalidad
+o creencias religiosas.
+No toleraremos el acoso a miembros de la comunidad bajo ningún concepto.
+Los participantes que violen estas reglas pueden ser sancionados o expulsados
+de la comunidad a discreción del equipo central de Codeando México y los líderes de comunidades locales.
 
-Chi Hack Night is dedicated to providing a harassment-free experience for everyone regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, age, or religion. 
+Las formas de acoso incluyen comentarios ofensivos, orales o escritos,
+relacionados con sexo, identidad u orientación sexuales, discapacidades,
+aspecto físico, edad, raza, nacionalidad o creencias religiosas,
+intimidación, amenazas, persecución, acecho, fotografías o grabaciones abusivas,
+y atenciones sexuales no gratas.
+El lenguaje o las imágenes sexuales no se permiten en ningún evento de
+Codeando México, en encuentros o comunicaciones relacionadas.
+Los miembros de la comunidad a los que se les pida que paren cualquier
+conducta abusiva deben obedecer inmediatamente.
+Los patrocinadores y presentadores están también sujetos al código de conducta.
 
-We do not tolerate harassment of organizers, presenters, and participants in any form. Sexual language and imagery is not appropriate for any Chi Hack Night event, unless explicitly allowed by the organizers. Anyone in violation of these policies may expelled from Chi Hack Night events, at the discretion of the event organizers.
+Si un miembro de la comunidad mostrara cualquier conducta abusiva,
+los organizadores de Codeando Guadalajara pueden tomar cualquier acción
+que crean apropiada, incluyendo avisar llamarle la atención o expulsarlo
+de la comunidad. Si eres víctima de conductas abusivas, ves a otra persona
+que está siendo acosada, o tienes dudas, por favor contacta con el equipo
+organizador inmediatamente.
 
-Harassment includes but is not limited to: offensive verbal or written comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, religion; sexual images in public spaces; deliberate intimidation; stalking; following; harassing photography or recording; sustained disruption of talks or other events; inappropriate physical contact; unwelcome sexual attention; unwarranted exclusion; and patronizing language or action.
+**Si tienes preguntas o sugerencias sobre este código de conducta,
+por favor contacta con uno de los organizadores, abre un issue en este repositorio o propón un cambio con un Pull Request.**
 
-If a participant engages in harassing behavior, the event organizers may take any action they deem appropriate, including warning the offender or expulsion from Chi Hack Night.
+Los organizadores de las comunidades mostradas arriba hemos desarrollado este código de conducta
+para gobernar los eventos y canales de comunicación respectivos.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please tell one of the following organizers what you experienced or witnessed:
 
-* Derek Eder, [derek.eder@gmail.com](mailto:derek.eder@gmail.com), (503) 577-0677
-* Rose Afriyie, [sariyie@gmail.com](mailto:sariyie@gmail.com), (570) 982-1562
-* Josh Kalov, [jkalov@gmail.com](mailto:jkalov@gmail.com), (847) 477-6939
-* Steven Vance, [jamesbondsv@gmail.com](mailto:jamesbondsv@gmail.com), (312) 593-4857
-
-Created collaboratively by the Chi Hack Night community, adapted from the [Code for America Code of Conduct](https://github.com/codeforamerica/codeofconduct).
-
-*Version 1.0. Published on Dec 9, 2014.*
-
-*[View the change history of this page](https://github.com/chihacknight/chihacknight.org/commits/master/code-of-conduct.md)*
+La base de este código de conducta fue tomado de:
+[Nodeschool Mexico City](https://github.com/nodeschool/mexicocity/edit/master/codeofconduct.md)
+Les agradecemos por traducir este Código de Conducta y por acercanos a él.

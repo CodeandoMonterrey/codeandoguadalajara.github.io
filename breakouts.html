@@ -1,24 +1,24 @@
 ---
 layout: default
-title: Breakout groups
-description: Every week after the presentation, we break out into topic-specific working and learning groups led by regular facilitators to guide conversations, answer questions, and build teams for civic apps. The groups are split into two types - working groups and learning groups.
+title: Grupos
+description: Cada sesión después de la presentación nos dividimos en grupos de trabajo y estudio liderados por facilitadores recurrentes para guiar la conversación , responder preguntas, y construir equipos para desarrollar tecnología cívica.
 ---
 
-<h1>Breakout groups</h1>
+<h1>Grupos</h1>
 
-<p>Every week after the presentation, we break out into topic-specific working and learning groups led by regular facilitators to guide conversations, answer questions, and build teams for civic apps. The groups are split into two types: <a href='#working'>working</a> groups and <a href='#learning'>learning</a> groups.</p>
+<p>Cada sesión después de la presentación nos dividimos en grupos de trabajo y estudio liderados por facilitadores recurrentes para guiar la conversación , responder preguntas, y construir equipos para desarrollar tecnología cívica.</p>
 
-<p>Want to start your own breakout group? Just announce it at the next hack night and people will vote with their feet!</p>
+<p>¿Quieres iniciar un grupo? Anúncialo en la próxima Hack Night y reune gente interesada.</p>
 
 <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-  <i class='fa fa-question-circle'></i> How do I add to this list?
+  <i class='fa fa-question-circle'></i> ¿Cómo agrego un grupo a la lista?
 </button>
 <div class="collapse" id="collapseExample">
   <div class="well">
     <ol>
-      <li>Create a GitHub account if you don't already have one: <a href='https://github.com/join' target='_blank'>https://github.com/join</a></li>
-      <li>Open a new GitHub Issue in this repository: <a href='https://github.com/chihacknight/breakout-groups/issues/new' target='_blank'>https://github.com/chihacknight/join-a-breakout/issues/new</a></li>
-      <li>Set the title of your issue to the name of your breakout, and fill out the description template in the body. We will add the appropriate labels to it.</li>
+      <li>Crea una cuenta de GitHub si no has creado una: <a href='https://github.com/join' target='_blank'>https://github.com/join</a></li>
+      <li>Abre una nuevo "Issue" en este repositorio: <a href='https://github.com/CodeandoGuadalajara/grupos/issues/new' target='_blank'>https://github.com/CodeandoGuadalajara/grupos/issues/new'</a></li>
+      <li>Titula el issue con el nombre del grupo que deseas abrir y agrega la descripción en el cuerpo. Nosotros agregaremos las etiquetas correspondientes.</li>
     </ol>
   </div>
 </div>
@@ -33,7 +33,10 @@ description: Every week after the presentation, we break out into topic-specific
 <script>
 
   //grab issue list from GitHub
-  $.when( $.getJSON( "https://api.github.com/repos/chihacknight/breakout-groups/issues?state=open&direction=asc" ) ).then(function( data, textStatus, jqXHR ) {
+  var githubUsr = 'CodeandoGuadalajara', //group or user
+    breakoutRepo = '/grupos'; //where to find breakout groups (as issues)
+
+  $.when( $.getJSON( "https://api.github.com/repos/" + githubUsr + breakoutRepo + "/issues?state=open&direction=asc" ) ).then(function( data, textStatus, jqXHR ) {
 
     $.each(data, function(i, json){
       json['opened-on'] = moment(json['created_at']).fromNow();
@@ -56,18 +59,5 @@ description: Every week after the presentation, we break out into topic-specific
   });
 
 
-  // // initialize datatables
-  // $('#working_table').dataTable( {
-  //     "aaSorting": [ [0,'asc'], [1, 'asc'] ],
-  //     "aoColumns": [
-  //         null,
-  //         null,
-  //         null,
-  //         null
-  //     ],
-  //     "bInfo": false,
-  //     "bPaginate": false,
-  //     "bFilter": false
-  // });
 </script>
 {{endraw}}
