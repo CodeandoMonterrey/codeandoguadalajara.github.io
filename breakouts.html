@@ -17,7 +17,7 @@ description: Cada sesión después de la presentación nos dividimos en grupos d
   <div class="well">
     <ol>
       <li>Crea una cuenta de GitHub si no has creado una: <a href='https://github.com/join' target='_blank'>https://github.com/join</a></li>
-      <li>Abre una nuevo "Issue" en este repositorio: <a href='https://github.com/CodeandoGuadalajara/grupos/issues/new' target='_blank'>https://github.com/CodeandoGuadalajara/grupos/issues/new'</a></li>
+      <li>Abre una nuevo "Issue" en este repositorio: <a href='https://github.com/CodeandoMonterrey/grupos/issues/new' target='_blank'>https://github.com/CodeandoMonterrey/grupos/issues/new'</a></li>
       <li>Titula el issue con el nombre del grupo que deseas abrir y agrega la descripción en el cuerpo. Nosotros agregaremos las etiquetas correspondientes.</li>
     </ol>
   </div>
@@ -33,7 +33,7 @@ description: Cada sesión después de la presentación nos dividimos en grupos d
 <script>
 
   //grab issue list from GitHub
-  var githubUsr = 'CodeandoGuadalajara', //group or user
+  var githubUsr = 'CodeandoMonterrey', //group or user
     breakoutRepo = '/grupos'; //where to find breakout groups (as issues)
 
   $.when( $.getJSON( "https://api.github.com/repos/" + githubUsr + breakoutRepo + "/issues?state=open&direction=asc" ) ).then(function( data, textStatus, jqXHR ) {

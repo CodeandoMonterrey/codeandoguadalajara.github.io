@@ -1,9 +1,9 @@
 port:  4000
 markdown: kramdown
-name: Codeando Guadalajara
-url: http://codeandoguadalajara.org
-title: Codeando Guadalajara
-description: "Comunidad de Hacking Cívico de Guadalajara"
+name: Codeando Monterrey
+url: http://codeandomonterrey.org
+title: Codeando Monterrey
+description: "Comunidad de Hacking Cívico de Monterrey"
 encoding: utf-8
 timezone: America/Chicago
 gems:
